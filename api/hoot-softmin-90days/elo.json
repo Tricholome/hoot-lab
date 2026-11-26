@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26 20:11 UTC",
+  "updated_at": "2026-11-26 20:19 UTC",
   "players": {
     "wyvernelement": {
       "player_id": "956",
@@ -48,10 +48,10 @@
     "uwtron": {
       "player_id": "1629",
       "elo": 1427,
-      "rank": "-",
-      "tier": "unassigned",
-      "bg_color": null,
-      "icon_url": null,
+      "rank": 2,
+      "tier": "fox",
+      "bg_color": "#E55555",
+      "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/fox.webp",
       "games": 23,
       "wins": 12.0,
       "win_rate": "52.2%"
@@ -147,7 +147,7 @@
     "schkitz": {
       "player_id": "2047",
       "elo": 1362,
-      "rank": 2,
+      "rank": 3,
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -202,10 +202,10 @@
     "scotchbonnet": {
       "player_id": "2755",
       "elo": 1316,
-      "rank": "-",
-      "tier": "unassigned",
-      "bg_color": null,
-      "icon_url": null,
+      "rank": 4,
+      "tier": "rabbit",
+      "bg_color": "#F2C14E",
+      "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
       "games": 16,
       "wins": 5.0,
       "win_rate": "31.2%"
@@ -213,7 +213,7 @@
     "mrdrouf": {
       "player_id": "975",
       "elo": 1315,
-      "rank": 3,
+      "rank": 5,
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -246,7 +246,7 @@
     "kaiser": {
       "player_id": "2757",
       "elo": 1310,
-      "rank": 4,
+      "rank": 6,
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -279,10 +279,10 @@
     "eletto21": {
       "player_id": "2401",
       "elo": 1293,
-      "rank": "-",
-      "tier": "unassigned",
-      "bg_color": null,
-      "icon_url": null,
+      "rank": 7,
+      "tier": "mouse",
+      "bg_color": "#F49E52",
+      "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
       "games": 19,
       "wins": 7.0,
       "win_rate": "36.8%"
@@ -334,10 +334,10 @@
     "zaandaa": {
       "player_id": "1163",
       "elo": 1283,
-      "rank": "-",
-      "tier": "unassigned",
-      "bg_color": null,
-      "icon_url": null,
+      "rank": 8,
+      "tier": "mouse",
+      "bg_color": "#F49E52",
+      "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
       "games": 13,
       "wins": 4.0,
       "win_rate": "30.8%"
@@ -356,7 +356,7 @@
     "jermcurry": {
       "player_id": "1130",
       "elo": 1269,
-      "rank": 5,
+      "rank": 9,
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -378,7 +378,7 @@
     "mrkent (utc+7)": {
       "player_id": "2747",
       "elo": 1258,
-      "rank": 6,
+      "rank": 10,
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -444,10 +444,10 @@
     "aedalus": {
       "player_id": "2729",
       "elo": 1236,
-      "rank": "-",
-      "tier": "unassigned",
-      "bg_color": null,
-      "icon_url": null,
+      "rank": 11,
+      "tier": "mouse",
+      "bg_color": "#F49E52",
+      "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
       "games": 17,
       "wins": 4.0,
       "win_rate": "23.5%"
@@ -598,10 +598,10 @@
     "pokerface126": {
       "player_id": "2769",
       "elo": 1196,
-      "rank": "-",
-      "tier": "unassigned",
-      "bg_color": null,
-      "icon_url": null,
+      "rank": 12,
+      "tier": "squirrel",
+      "bg_color": "#94C160",
+      "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/squirrel.webp",
       "games": 23,
       "wins": 8.0,
       "win_rate": "34.8%"
@@ -609,7 +609,7 @@
     "demarogue": {
       "player_id": "2760",
       "elo": 1196,
-      "rank": 7,
+      "rank": 13,
       "tier": "squirrel",
       "bg_color": "#94C160",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/squirrel.webp",
@@ -796,10 +796,10 @@
     "nattykash": {
       "player_id": "1367",
       "elo": 1173,
-      "rank": "-",
-      "tier": "unassigned",
-      "bg_color": null,
-      "icon_url": null,
+      "rank": 14,
+      "tier": "squirrel",
+      "bg_color": "#94C160",
+      "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/squirrel.webp",
       "games": 15,
       "wins": 3.0,
       "win_rate": "20.0%"
@@ -1456,7 +1456,7 @@
     "schnaga": {
       "player_id": "248",
       "elo": 1083,
-      "rank": 8,
+      "rank": 15,
       "tier": "squirrel",
       "bg_color": "#94C160",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/squirrel.webp",
@@ -1555,7 +1555,7 @@
     "mentalmendel": {
       "player_id": "2519",
       "elo": 1008,
-      "rank": 9,
+      "rank": 16,
       "tier": "squirrel",
       "bg_color": "#94C160",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/squirrel.webp",
