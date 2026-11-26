@@ -3,14 +3,12 @@
 
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Rootelo • Undergrowth</title>
+    <title>Rootelo • Codex</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
 
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="static/style.css">
     
     <style>
         :root {
@@ -146,7 +144,7 @@
 			
 
 			/* --- 5. PAGE THEME --- */
-			--main-color: #94C160;
+			--main-color: #F49E52;
 		}
     </style>
 	
@@ -157,26 +155,26 @@
 	<meta name="google-site-verification" content="xNfE9mY0Df8BsQAl4g5S0I_C4MvFC8nnJVNVWJJpqAg" />
 
 	
-	<meta name="description" content="A sanctuary for the critters who&nbsp;never&nbsp;sought&nbsp;a&nbsp;<span class='cipher' data-word='crown'>crown</span>.">
+	<meta name="description" content="Understanding the fundamental rules and&nbsp;mechanics&nbsp;of&nbsp;Rootelo.">
 	
 
 	<!-- Open Graph Metadata -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://tricholome.github.io/hoot-lab/cache.html">
+	<meta property="og:url" content="https://tricholome.github.io/hoot-lab/simulator.html">
 	<meta property="og:site_name" content="ROOTELO • A Metric of Woodland Skill and Will">
-	<meta property="og:title" content="Undergrowth">
-	<meta property="og:description" content="A sanctuary for the critters who never sought a crown.">
-	<meta property="og:image" content="https://tricholome.github.io/hoot-lab/assets/meta/cache-preview.webp">
+	<meta property="og:title" content="Codex">
+	<meta property="og:description" content="Understanding the fundamental rules and mechanics of Rootelo.">
+	<meta property="og:image" content="https://tricholome.github.io/hoot-lab/assets/meta/about-preview.webp">
 	
 	<link rel="icon" type="image/png" sizes="192x192" href="https://tricholome.github.io/hoot-lab/assets/meta/favicon.png">
-	<link rel="icon" type="image/svg+xml" href="../assets/meta/favicon.svg">
+	<link rel="icon" type="image/svg+xml" href="assets/meta/favicon.svg">
 	<link rel="apple-touch-icon" href="https://tricholome.github.io/hoot-lab/assets/meta/favicon.png">
 
     
 	
 </head>
 
-<body class=" " data-page="cache" data-section="cache">
+<body class=" " data-page="simulator" data-section="codex">
 	<script>
 		(function() {
 			const page = document.body.dataset.page;
@@ -197,15 +195,15 @@
             <div class="banner-container banner-standard">
                 <div class="banner-icons left">
                     <a href="javascript:void(0)" onclick="openTierModal('stag')" class="tooltip-link js-double-tap banner-icon-stag">
-                        <img src="../assets/icons/stag.webp" alt="Stag">
+                        <img src="assets/icons/stag.webp" alt="Stag">
                         <span class="tooltip-text"><strong class="tier-stag">Stag (1600+)</strong> — The Legend</span>
                     </a>
 					<a href="javascript:void(0)" onclick="openTierModal('bird')" class="tooltip-link js-double-tap">
-                        <img src="../assets/icons/bird.webp" alt="Bird">
+                        <img src="assets/icons/bird.webp" alt="Bird">
                         <span class="tooltip-text"><strong class="tier-bird">Bird (1500+)</strong> — The Grandmasters</span>
                     </a>
                     <a href="javascript:void(0)" onclick="openTierModal('fox')" class="tooltip-link js-double-tap">
-                        <img src="../assets/icons/fox.webp" alt="Fox">
+                        <img src="assets/icons/fox.webp" alt="Fox">
                         <span class="tooltip-text"><strong class="tier-fox">Fox (1400+)</strong> — The Cunning Tacticians</span>
                     </a>
                 </div>
@@ -215,15 +213,15 @@
                 </div>
                 <div class="banner-icons right">
                     <a href="javascript:void(0)" onclick="openTierModal('rabbit')" class="tooltip-link js-double-tap">
-                        <img src="../assets/icons/rabbit.webp" alt="Rabbit">
+                        <img src="assets/icons/rabbit.webp" alt="Rabbit">
                         <span class="tooltip-text"><strong class="tier-rabbit">Rabbit (1300+)</strong> — The Agile Contenders</span>
                     </a>
                     <a href="javascript:void(0)" onclick="openTierModal('mouse')" class="tooltip-link js-double-tap">
-                        <img src="../assets/icons/mouse.webp" alt="Mouse">
+                        <img src="assets/icons/mouse.webp" alt="Mouse">
                         <span class="tooltip-text"><strong class="tier-mouse">Mouse (1200+)</strong> — The Steady Foragers</span>
                     </a>
 					<a href="javascript:void(0)" onclick="openTierModal('squirrel')" class="tooltip-link js-double-tap banner-icon-squirrel">
-                        <img src="../assets/icons/squirrel.webp" alt="Squirrel">
+                        <img src="assets/icons/squirrel.webp" alt="Squirrel">
                         <span class="tooltip-text"><strong class="tier-squirrel">Squirrel (&lt; 1200)</strong> — The Hapless Stragglers</span>
                     </a>
                 </div>
@@ -233,13 +231,13 @@
             <div class="banner-container banner-homelands">
                 <div class="banner-icons left">
                     <a href="javascript:void(0)" onclick="openTierModal('frog')" class="tooltip-link js-double-tap slot-bird">
-                        <img src="../assets/icons/bird.webp" alt="Bird" class="base-icon">
-                        <img src="../assets/icons/frog.webp" alt="Frog" class="frog-icon">
+                        <img src="assets/icons/bird.webp" alt="Bird" class="base-icon">
+                        <img src="assets/icons/frog.webp" alt="Frog" class="frog-icon">
                         <span class="tooltip-text"><strong class="tier-frog">Frog</strong> — The Homeland Heralds</span>
                     </a>
                     <a href="javascript:void(0)" onclick="openTierModal('frog')" class="tooltip-link js-double-tap slot-fox">
-                        <img src="../assets/icons/fox.webp" alt="Fox" class="base-icon">
-                        <img src="../assets/icons/frog.webp" alt="Frog" class="frog-icon">
+                        <img src="assets/icons/fox.webp" alt="Fox" class="base-icon">
+                        <img src="assets/icons/frog.webp" alt="Frog" class="frog-icon">
                         <span class="tooltip-text"><strong class="tier-frog">Frog</strong> — The Homeland Heralds</span>
                     </a>
                 </div>
@@ -251,13 +249,13 @@
 
                 <div class="banner-icons right">
                     <a href="javascript:void(0)" onclick="openTierModal('frog')" class="tooltip-link js-double-tap slot-rabbit">
-                        <img src="../assets/icons/rabbit.webp" alt="Rabbit" class="base-icon">
-                        <img src="../assets/icons/frog.webp" alt="Frog" class="frog-icon">
+                        <img src="assets/icons/rabbit.webp" alt="Rabbit" class="base-icon">
+                        <img src="assets/icons/frog.webp" alt="Frog" class="frog-icon">
                         <span class="tooltip-text"><strong class="tier-frog">Frog</strong> — The Homeland Heralds</span>
                     </a>
                     <a href="javascript:void(0)" onclick="openTierModal('frog')" class="tooltip-link js-double-tap slot-mouse">
-                        <img src="../assets/icons/mouse.webp" alt="Mouse" class="base-icon">
-                        <img src="../assets/icons/frog.webp" alt="Frog" class="frog-icon">
+                        <img src="assets/icons/mouse.webp" alt="Mouse" class="base-icon">
+                        <img src="assets/icons/frog.webp" alt="Frog" class="frog-icon">
                         <span class="tooltip-text"><strong class="tier-frog">Frog</strong> — The Homeland Heralds</span>
                     </a>
                 </div>
@@ -292,9 +290,9 @@
 						
 					
 					
-					<a href="about.html" class="">Codex</a>
+					<a href="about.html" class="active">Codex</a>
 				
-				<a href="cache.html" class="nav-secret active">Undergrowth</a>
+				<a href="cache.html" class="nav-secret ">Undergrowth</a>
 			</nav>
 
             <!-- 2. HOMELANDS NAVIGATION -->
@@ -309,16 +307,25 @@
         
         <div class="screen-deco right-deco">
 			
-				<img src="../assets/images/cache_img_right.webp" alt="Decoration Right">
+				<img src="assets/images/about_img_right.webp" alt="Decoration Right">
 			
 		</div>
 
         <div id="view" class="app-viewport window-box">
             <header class="page-intro">
-				<h2>Undergrowth</h2>
-				<p>A sanctuary for the critters who&nbsp;never&nbsp;sought&nbsp;a&nbsp;<span class='cipher' data-word='crown'>crown</span>.</p>
+				<h2>Codex</h2>
+				<p>Understanding the fundamental rules and&nbsp;mechanics&nbsp;of&nbsp;Rootelo.</p>
 
 				
+				
+				<div class="season-selector-group codex-subnav-group">
+					<div class="codex-selector">
+						<a href="about.html#view" class="season-btn ">Overview</a>
+						<a href="league.html#view" class="season-btn ">League</a>
+						<a href="simulator.html#view" class="season-btn active">Simulator</a>
+						
+					</div>
+				</div>
 				
 				
 
@@ -336,283 +343,378 @@
                 
 
 <div class="codex-section">
-
-	<div class="entry-door">
-		<a href="javascript:void(0)" id="hof-access" class="secret-btn">
-			Reveal what is hidden
-			<span class="tooltip-text">This is not all... keep looking around.</span>
-		</a>
-	</div>
-	
-	<div class="hof-section">
-		
-		<table id="hall_of_fame" class="display nowrap responsive">
-			<thead>
-				<tr>
-					<th>Rank</th>
-					<th>Player</th>
-					<th>Longest Run</th>
-					<th>Peak Elo</th>
-					<th>Active Timeframe</th>
-				</tr>
-			</thead>
-			<tbody>
-				
-					
-						<tr class="tier-header-row">
-							<td>
-								<div class="tier-icon-container">
-									<img src="../assets/icons/fox.webp" alt="fox">
-								</div>
-							</td>
-							<td>
-								
-								<span class="hide-mobile">Fearless</span> Foxes
-							</td>
-							<td><span class="hide-mobile">Longest</span> Run</td>
-							<td>Peak <span class="hide-mobile">Elo</span></td>
-							<td>Active Timeframe</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="fox">				
-							<td>I</td>
-							<td>BW</td>
-							<td>1</td>
-							<td>1400</td>
-							<td>Nov 25, 2026</td>
-						</tr>
-					
-				
-					
-						<tr class="tier-header-row">
-							<td>
-								<div class="tier-icon-container">
-									<img src="../assets/icons/rabbit.webp" alt="rabbit">
-								</div>
-							</td>
-							<td>
-								
-								<span class="hide-mobile">Radiant</span> Rabbits
-							</td>
-							<td><span class="hide-mobile">Longest</span> Run</td>
-							<td>Peak <span class="hide-mobile">Elo</span></td>
-							<td>Active Timeframe</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="rabbit">				
-							<td>I</td>
-							<td>BW</td>
-							<td>42</td>
-							<td>1394</td>
-							<td>Aug 10 — Nov 24, 2026</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="rabbit">				
-							<td>II</td>
-							<td>uwtron</td>
-							<td>14</td>
-							<td>1392</td>
-							<td>Jun 25 — Nov 22, 2026</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="rabbit">				
-							<td>III</td>
-							<td>PokerFace126</td>
-							<td>5</td>
-							<td>1331</td>
-							<td>Jul 30 — Aug 25, 2026</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="rabbit">				
-							<td>IV</td>
-							<td>WyvernElement</td>
-							<td>3</td>
-							<td>1365</td>
-							<td>Oct 15 — Nov 19, 2026</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="rabbit">				
-							<td>V</td>
-							<td>Slaith</td>
-							<td>3</td>
-							<td>1332</td>
-							<td>Oct 10 — Nov 22, 2026</td>
-						</tr>
-					
-				
-					
-						<tr class="tier-header-row">
-							<td>
-								<div class="tier-icon-container">
-									<img src="../assets/icons/mouse.webp" alt="mouse">
-								</div>
-							</td>
-							<td>
-								
-								<span class="hide-mobile">Mighty</span> Mice
-							</td>
-							<td><span class="hide-mobile">Longest</span> Run</td>
-							<td>Peak <span class="hide-mobile">Elo</span></td>
-							<td>Active Timeframe</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="mouse">				
-							<td>I</td>
-							<td>jermcurry</td>
-							<td>20</td>
-							<td>1273</td>
-							<td>Sep 21 — Nov 24, 2026</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="mouse">				
-							<td>II</td>
-							<td>PokerFace126</td>
-							<td>9</td>
-							<td>1294</td>
-							<td>Sep 01 — Nov 11, 2026</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="mouse">				
-							<td>III</td>
-							<td>Simber</td>
-							<td>8</td>
-							<td>1272</td>
-							<td>Aug 15 — Nov 19, 2026</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="mouse">				
-							<td>IV</td>
-							<td>DemaRogue</td>
-							<td>8</td>
-							<td>1227</td>
-							<td>Aug 23 — Oct 10, 2026</td>
-						</tr>
-					
-				
-					
-						<tr data-tier="mouse">				
-							<td>V</td>
-							<td>kaiser</td>
-							<td>7</td>
-							<td>1261</td>
-							<td>Sep 16 — Nov 15, 2026</td>
-						</tr>
-					
-				
-			</tbody>
-		</table>
-
-		<table id="visitor_table" class="display">
-			<thead>
-				<tr>
-					<th>
-						<div class="tier-icon-container">
-							<img src="../assets/icons/squirrel.webp" alt="squirrel">
-						</div>
-					</th>
-					<th>
-						
-						<span class="hide-mobile">Scattered</span> Squirrels
-					</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr data-tier="squirrel">
-					<td></td>
-					<td class="visitor-cell">
-						<span class="visitor-name"></span> reached this place and uncovered its secrets on <span class="visitor-date"></span>.
-					</td>
-				</tr>
-			</tbody>
-		</table>
-		
-		<div id="visitor-recognition">
-			<button id="btn-engrave" class="secret-btn">Engrave your presence here?</button>
-			
-			<div id="input-zone"> <input type="text" id="visitor-name" placeholder="Your name..." maxlength="20">
-				<button id="btn-confirm" class="secret-btn">Confirm</button>
-			</div>
-		</div>
-		
-	</div>
-	
-	<p class="enigma enigma-green">
-		<span>What is this place?</span>
-		<span>Step into the shade.</span>
-		<span>Look beneath the leaves.</span>
-		<a class="cl" href="javascript:void(0)" id="watcher-secret">Seek the silent watcher.</a>
-	</p>
-	
-    <div class="artist-story-green">
-        <h2>The <span class="cipher" data-word="silent">Silent</span> Chronicler</h2>
-        <p>Here, where <span class="cipher" data-word="roots">roots</span> run deep and the wild grows dense, <a class="cl" href="https://www.instagram.com/xluevi.art/">𝕩𝕝𝕦𝕖𝕧𝕚</a> sits hidden in the green. He captures <span class="cipher" data-word="every">every</span> fluttering wing and <span class="cipher" data-word="every">every</span> twitching whisker. He breathes life into the Woodland’s teeming diversity with <span class="cipher" data-word="every">every</span> stroke. It is a quiet call to <span class="cipher" data-word="remember">remember</span>: beyond the League’s grand stakes, nothing small goes unseen.</p>
-    </div>
-	
-	<div class="fruit-container">
-		<div id="berry-section">
-			<h2>The Mystic Berry</h2>
-			<p>Some secrets are juicier than others.<br>Can you feel the pulse?</p>
-			<div class="fruit-interaction-wrapper">
-				<a href="javascript:void(0)" id="berry-secret" onclick="openTierModal('stag')" class="fruit-trigger js-double-tap">
-					<span class="tooltip-text fruit-tooltip">Squish it!</span>
-					<img src="../assets/images/berry.webp" alt="Berry" class="fruit-sprite">
-				</a>
-			</div>
-		</div>
-	
-		<div id="nut-section">
-			<h2>The Special Nut</h2>
-			<p>No rank? No stress. Take it easy.<br>We haven't forgotten you!</p>
-			<div class="fruit-interaction-wrapper">
-				<a href="javascript:void(0)" id="nut-secret" onclick="openTierModal('squirrel')" class="fruit-trigger js-double-tap">
-					<span class="tooltip-text fruit-tooltip">Crack it!</span>
-					<img src="../assets/images/nut.webp" alt="Nut" class="fruit-sprite">
-				</a>
-			</div>
-		</div>
-	</div>
-	
-	<p class="enigma enigma-purple">
-		<span>What is this place?</span>
-		<span>Walk into the dusk.</span>
-		<span>Tread upon the heath.</span>
-		<a class="cl" href="javascript:void(0)" id="warden-secret">Meet the faithful warden.</a>
-	</p>
-	
-	<div class="artist-story-purple">
-        <h2>The Faithful Archivist</h2>
-        <p>Here, where the mist hangs thin and light turns to velvet, <strong>Tʀɪᴄʜᴏʟᴏᴍᴇ</strong> lingers beneath the purple bloom. Every feat, every triumph, every half-remembered tale is carefully preserved. It is a lasting vow to celebrate: beyond the League’s vain stir, nothing great is ever truly lost.</p>
-    </div>
-		
-	<div class="exit-door">	
-		<a href="javascript:void(0)" id="leave-secrets" class="secret-btn js-double-tap">
-			Leave and forget this place
-			<span class="tooltip-text">Return to the simple order of the Woodland.</span>
-		</a>
-	</div>
-	
-	
+    <h2>The Simulator</h2>
+    <p>Simulate any match to preview expected win chances, k-factors, and Elo changes. Choose existing players or manually enter custom parameters to test scenarios.</p>
 </div>
+
+<div class="simulator-section">
+    
+	<datalist id="simPlayerList">
+		
+			
+				<option value=".doe"></option>
+			
+				<option value="aaron_dangerman"></option>
+			
+				<option value="abbreviatedman (he/him)"></option>
+			
+				<option value="Aedalus"></option>
+			
+				<option value="Aeliott"></option>
+			
+				<option value="Agent Narcos"></option>
+			
+				<option value="AnOkayPotato"></option>
+			
+				<option value="batmaster"></option>
+			
+				<option value="bendn"></option>
+			
+				<option value="benssoon"></option>
+			
+				<option value="BlazeBoy"></option>
+			
+				<option value="Briony"></option>
+			
+				<option value="bunniesandcandy"></option>
+			
+				<option value="Bustin"></option>
+			
+				<option value="BW"></option>
+			
+				<option value="calvinfunfun"></option>
+			
+				<option value="Canyon"></option>
+			
+				<option value="Catzador"></option>
+			
+				<option value="ChefBoyardee"></option>
+			
+				<option value="Chicken_X"></option>
+			
+				<option value="ChopieTheCat"></option>
+			
+				<option value="clinicalindication"></option>
+			
+				<option value="Cookies"></option>
+			
+				<option value="Coola101"></option>
+			
+				<option value="Cosmic Cant"></option>
+			
+				<option value="countthemsheep"></option>
+			
+				<option value="coyote"></option>
+			
+				<option value="CUA"></option>
+			
+				<option value="Dark Owl"></option>
+			
+				<option value="darkcat9000"></option>
+			
+				<option value="Darkwonderer"></option>
+			
+				<option value="DarthPuniceus (MonteCristo24601)"></option>
+			
+				<option value="Davee_39"></option>
+			
+				<option value="Dekiru"></option>
+			
+				<option value="DemaRogue"></option>
+			
+				<option value="Dias"></option>
+			
+				<option value="Dr. Seal"></option>
+			
+				<option value="Eletto21"></option>
+			
+				<option value="Empress Octavia"></option>
+			
+				<option value="EnzotheBenzo"></option>
+			
+				<option value="euler's fool"></option>
+			
+				<option value="Extortionator (AUS)"></option>
+			
+				<option value="fajfar"></option>
+			
+				<option value="fraaab"></option>
+			
+				<option value="Geetus"></option>
+			
+				<option value="Gregoola"></option>
+			
+				<option value="Hasan"></option>
+			
+				<option value="House Addict"></option>
+			
+				<option value="Hurple"></option>
+			
+				<option value="Hồ Hà Nguyễn"></option>
+			
+				<option value="IcarusPanda (cringelordirl)"></option>
+			
+				<option value="IceeCream"></option>
+			
+				<option value="idyll"></option>
+			
+				<option value="Itay Chang"></option>
+			
+				<option value="jakattak14"></option>
+			
+				<option value="Jalapeno"></option>
+			
+				<option value="jazmorow"></option>
+			
+				<option value="Jed"></option>
+			
+				<option value="jermcurry"></option>
+			
+				<option value="jonismiff"></option>
+			
+				<option value="kaiser"></option>
+			
+				<option value="Kernel_"></option>
+			
+				<option value="Kethem"></option>
+			
+				<option value="KeyserSoze"></option>
+			
+				<option value="KingLuigiNL"></option>
+			
+				<option value="Kvan_"></option>
+			
+				<option value="KyloBot"></option>
+			
+				<option value="lazarus210"></option>
+			
+				<option value="Lilac Teddy Bear"></option>
+			
+				<option value="Litch Queen of Hyena Necrocracy"></option>
+			
+				<option value="Lobster (GMT-4)(Indiana)"></option>
+			
+				<option value="lumpyprol"></option>
+			
+				<option value="Lylethebrick"></option>
+			
+				<option value="MagicDream"></option>
+			
+				<option value="magiczamboni"></option>
+			
+				<option value="Malleable Frog"></option>
+			
+				<option value="MarcustheCat"></option>
+			
+				<option value="Matthijs"></option>
+			
+				<option value="mcauthor"></option>
+			
+				<option value="MentalMendel"></option>
+			
+				<option value="Meryn"></option>
+			
+				<option value="militech2078"></option>
+			
+				<option value="Moss"></option>
+			
+				<option value="MrDrouf"></option>
+			
+				<option value="MrKent (UTC"></option>
+			
+				<option value="mwalt92"></option>
+			
+				<option value="Nadav253"></option>
+			
+				<option value="NadtyLite"></option>
+			
+				<option value="NattyKash"></option>
+			
+				<option value="North Abbot (he/him/his)"></option>
+			
+				<option value="nvt2508"></option>
+			
+				<option value="pheobii"></option>
+			
+				<option value="Piechu"></option>
+			
+				<option value="Plasma"></option>
+			
+				<option value="plegbot"></option>
+			
+				<option value="PokerFace126"></option>
+			
+				<option value="pooge"></option>
+			
+				<option value="punkstarman"></option>
+			
+				<option value="Purplefrowns"></option>
+			
+				<option value="pwarren8590"></option>
+			
+				<option value="Quents"></option>
+			
+				<option value="RabbitWarlord"></option>
+			
+				<option value="radiantchaos"></option>
+			
+				<option value="Requiem"></option>
+			
+				<option value="Rho Sternjäger"></option>
+			
+				<option value="Rish"></option>
+			
+				<option value="Riverman(luigi)"></option>
+			
+				<option value="RondamGemas"></option>
+			
+				<option value="salo_solomon"></option>
+			
+				<option value="Schkitz"></option>
+			
+				<option value="Schnaga"></option>
+			
+				<option value="scotchbonnet"></option>
+			
+				<option value="sda1611"></option>
+			
+				<option value="SEironed"></option>
+			
+				<option value="Sharkat"></option>
+			
+				<option value="Silver"></option>
+			
+				<option value="Simber"></option>
+			
+				<option value="Slaith"></option>
+			
+				<option value="smeichel"></option>
+			
+				<option value="SNCuller"></option>
+			
+				<option value="SSSS"></option>
+			
+				<option value="Starhard_Fishrinse"></option>
+			
+				<option value="stephkuriboh"></option>
+			
+				<option value="stockbot"></option>
+			
+				<option value="SugieCube"></option>
+			
+				<option value="SunkistDragon"></option>
+			
+				<option value="Sweenss"></option>
+			
+				<option value="talleyrand19"></option>
+			
+				<option value="tentacultist_"></option>
+			
+				<option value="theSOFLY"></option>
+			
+				<option value="Thewy"></option>
+			
+				<option value="Thungon"></option>
+			
+				<option value="trippingrannys"></option>
+			
+				<option value="True American Patriot"></option>
+			
+				<option value="Tungsten"></option>
+			
+				<option value="turmoilbyrd"></option>
+			
+				<option value="uwtron"></option>
+			
+				<option value="WillRevolt"></option>
+			
+				<option value="WyvernElement"></option>
+			
+				<option value="xinoehp512"></option>
+			
+				<option value="XpertAcorn"></option>
+			
+				<option value="Zaandaa"></option>
+			
+		
+	</datalist>
+
+	<table id="simTable" class="display responsive nowrap">
+		<thead>
+			<tr>
+				<th style="text-align: center;">Winner</th>
+				<th>Player</th>
+				<th>Elo</th>
+				<th>Games</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+			<tr class="sim-row">
+				<td style="text-align: center;">
+					<input type="checkbox" class="checkbox sim-winner-toggle" checked>
+				</td>
+				<td><input type="text" class="input sim-p-name" list="simPlayerList" placeholder="Player 1" autocomplete="off"></td>
+				<td><input type="number" class="input sim-p-elo" value="1200" min="0" step="10"></td>
+				<td><input type="number" class="input sim-p-games" value="0" min="0"></td>
+			</tr>
+			
+			<tr class="sim-row">
+				<td style="text-align: center;">
+					<input type="checkbox" class="checkbox sim-winner-toggle" >
+				</td>
+				<td><input type="text" class="input sim-p-name" list="simPlayerList" placeholder="Player 2" autocomplete="off"></td>
+				<td><input type="number" class="input sim-p-elo" value="1200" min="0" step="10"></td>
+				<td><input type="number" class="input sim-p-games" value="0" min="0"></td>
+			</tr>
+			
+			<tr class="sim-row">
+				<td style="text-align: center;">
+					<input type="checkbox" class="checkbox sim-winner-toggle" >
+				</td>
+				<td><input type="text" class="input sim-p-name" list="simPlayerList" placeholder="Player 3" autocomplete="off"></td>
+				<td><input type="number" class="input sim-p-elo" value="1200" min="0" step="10"></td>
+				<td><input type="number" class="input sim-p-games" value="0" min="0"></td>
+			</tr>
+			
+			<tr class="sim-row">
+				<td style="text-align: center;">
+					<input type="checkbox" class="checkbox sim-winner-toggle" >
+				</td>
+				<td><input type="text" class="input sim-p-name" list="simPlayerList" placeholder="Player 4" autocomplete="off"></td>
+				<td><input type="number" class="input sim-p-elo" value="1200" min="0" step="10"></td>
+				<td><input type="number" class="input sim-p-games" value="0" min="0"></td>
+			</tr>
+			
+		</tbody>
+	</table>
+
+	<table id="simResultTable" class="display responsive nowrap" style="width:100%">
+		<thead>
+			<tr>
+				<th>Player</th>
+				<th>Base elo</th>
+				<th>k-factor</th>
+				<th>Exp. win</th>
+				<th>Change</th>
+				<th>New elo</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+</div>
+
+<template id="simTierTemplate">
+    <div class="sim-tier-cell">
+        <a href="javascript:void(0)" onclick="handleTierClick(event, '{TIER}')" class="tier-anchor-link">
+            <div class="tier-icon-container">
+                <img src="{ICON_URL}" alt="{TIER}">
+            </div>
+        </a>
+        <span class="tier-{TIER}">{ELO}</span>
+    </div>
+</template>
 
 
             </main>
@@ -625,7 +727,7 @@
         
         <div class="screen-deco left-deco">
 			
-				<img src="../assets/images/cache_img_left.webp" alt="Decoration Left">
+				<img src="assets/images/about_img_left.webp" alt="Decoration Left">
 			
 		</div>
 
@@ -634,7 +736,7 @@
 				<div class="footer-credits">
 					<span>Powered by <strong>Tʀɪᴄʜᴏʟᴏᴍᴇ</strong></span>
 					<span>Woodland visions by
-						<a class="cl" href="../cache.html">𝕩𝕝𝕦𝕖𝕧𝕚</a>
+						<a class="cl" href="cache.html">𝕩𝕝𝕦𝕖𝕧𝕚</a>
 						<a class="insta" href="https://www.instagram.com/xluevi.art/" target="_blank" aria-label="Instagram de xluevi">
 							<svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
 								<rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
@@ -644,7 +746,7 @@
 						</a>
 					</span>
 				</div>
-				<div class="footer-date">Updated on 2026-11-26 16:06 UTC</div>
+				<div class="footer-date">Updated on 2026-11-26 16:26 UTC</div>
 			</div>
 		</footer>
     </div>
@@ -691,30 +793,30 @@
 		window.PROFILE_BASE_URL = "https://www.therootdatabase.com/profile";
 		window.K_CONFIG = {"exp_decay": 9.0, "k_cap_new": 50.0, "k_cap_ranked": 50.0, "k_floor": 25.0, "k_start": 50.0, "t_inactivity": 90};
 
-		const PATH_PREFIX = "../";
+		const PATH_PREFIX = "";
 
 		const CONFIG = {
 			colors: {"bear": "#ffffff", "bird": "#7AB5E0", "default": "#ffffff", "fox": "#E55555", "frog": "#7B7D10", "mouse": "#F49E52", "rabbit": "#F2C14E", "squirrel": "#94C160", "stag": "#C686FF"},
 			icons: {
 				
-					"bird": "../" + "assets/icons/bird.webp",
+					"bird": "" + "assets/icons/bird.webp",
 				
-					"fox": "../" + "assets/icons/fox.webp",
+					"fox": "" + "assets/icons/fox.webp",
 				
-					"rabbit": "../" + "assets/icons/rabbit.webp",
+					"rabbit": "" + "assets/icons/rabbit.webp",
 				
-					"mouse": "../" + "assets/icons/mouse.webp",
+					"mouse": "" + "assets/icons/mouse.webp",
 				
-					"squirrel": "../" + "assets/icons/squirrel.webp",
+					"squirrel": "" + "assets/icons/squirrel.webp",
 				
-					"stag": "../" + "assets/icons/stag.webp",
+					"stag": "" + "assets/icons/stag.webp",
 				
-					"bear": "../" + "assets/icons/bear.webp",
+					"bear": "" + "assets/icons/bear.webp",
 				
-					"frog": "../" + "assets/icons/frog.webp",
+					"frog": "" + "assets/icons/frog.webp",
 				
 			},
-			currentTier: "squirrel",
+			currentTier: "mouse",
 			chartData: {},
 			champMatch: null
 		};
@@ -767,12 +869,12 @@
 				elo: CONFIG.champMatch ? CONFIG.champMatch.champion : '',
 				subtitle: CONFIG.champMatch ? `Season ${CONFIG.champMatch.season} Champion` : '',
 				final: CONFIG.champMatch ? `An epic <a href="${CONFIG.champMatch.match_link}" target="_blank" class="cl">final battle</a> pitted the top four titans of the league against each other. On ${CONFIG.champMatch.date}, <strong>${CONFIG.champMatch.champion}</strong> secured the seasonal crown by shutting out the ambitions of <strong>${CONFIG.champMatch.player2}</strong>, <strong>${CONFIG.champMatch.player3}</strong> and <strong>${CONFIG.champMatch.player4}</strong>. Surely, the woodland floor shook from the sheer force of their clash.` : '',
-				crown: '../assets/images/crown.webp'
+				crown: 'assets/images/crown.webp'
 			}
 		};
 	</script>
 	
-    <script src="../static/script.js"></script>
+    <script src="static/script.js"></script>
     
 
 	<script>
