@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-26 18:24 UTC",
+  "updated_at": "2026-11-26 19:34 UTC",
   "players": {
     "wyvernelement": {
       "player_id": "956",
       "elo": 1516,
-      "rank": 1,
+      "rank": "-",
       "tier": "bird",
       "bg_color": "#7AB5E0",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/bird.webp",
@@ -15,7 +15,7 @@
     "talleyrand19": {
       "player_id": "134",
       "elo": 1466,
-      "rank": 2,
+      "rank": "-",
       "tier": "fox",
       "bg_color": "#E55555",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/fox.webp",
@@ -37,7 +37,7 @@
     "bw": {
       "player_id": "326",
       "elo": 1459,
-      "rank": 3,
+      "rank": 1,
       "tier": "fox",
       "bg_color": "#E55555",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/fox.webp",
@@ -48,7 +48,7 @@
     "uwtron": {
       "player_id": "1629",
       "elo": 1427,
-      "rank": 4,
+      "rank": "-",
       "tier": "fox",
       "bg_color": "#E55555",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/fox.webp",
@@ -70,7 +70,7 @@
     "slaith": {
       "player_id": "1320",
       "elo": 1419,
-      "rank": 5,
+      "rank": "-",
       "tier": "fox",
       "bg_color": "#E55555",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/fox.webp",
@@ -81,7 +81,7 @@
     "lylethebrick": {
       "player_id": "3244",
       "elo": 1400,
-      "rank": 6,
+      "rank": "-",
       "tier": "fox",
       "bg_color": "#E55555",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/fox.webp",
@@ -92,7 +92,7 @@
     "chicken_x": {
       "player_id": "2398",
       "elo": 1395,
-      "rank": 7,
+      "rank": "-",
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -103,7 +103,7 @@
     "meryn": {
       "player_id": "325",
       "elo": 1391,
-      "rank": 8,
+      "rank": "-",
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -147,7 +147,7 @@
     "schkitz": {
       "player_id": "2047",
       "elo": 1362,
-      "rank": 9,
+      "rank": 2,
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -169,7 +169,7 @@
     "simber": {
       "player_id": "2374",
       "elo": 1333,
-      "rank": 10,
+      "rank": "-",
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -180,7 +180,7 @@
     "cosmic cant": {
       "player_id": "632",
       "elo": 1324,
-      "rank": 11,
+      "rank": "-",
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -191,7 +191,7 @@
     "true american patriot": {
       "player_id": "2407",
       "elo": 1324,
-      "rank": 12,
+      "rank": "-",
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -202,7 +202,7 @@
     "scotchbonnet": {
       "player_id": "2755",
       "elo": 1316,
-      "rank": 13,
+      "rank": "-",
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -213,7 +213,7 @@
     "mrdrouf": {
       "player_id": "975",
       "elo": 1315,
-      "rank": 14,
+      "rank": 3,
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -224,7 +224,7 @@
     "nadav253": {
       "player_id": "317",
       "elo": 1314,
-      "rank": 15,
+      "rank": "-",
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -235,7 +235,7 @@
     "gregoola": {
       "player_id": "128",
       "elo": 1313,
-      "rank": 16,
+      "rank": "-",
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -246,7 +246,7 @@
     "kaiser": {
       "player_id": "2757",
       "elo": 1310,
-      "rank": 17,
+      "rank": 4,
       "tier": "rabbit",
       "bg_color": "#F2C14E",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/rabbit.webp",
@@ -279,7 +279,7 @@
     "eletto21": {
       "player_id": "2401",
       "elo": 1293,
-      "rank": 18,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -290,7 +290,7 @@
     "snculler": {
       "player_id": "1165",
       "elo": 1290,
-      "rank": 19,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -312,7 +312,7 @@
     "trippingrannys": {
       "player_id": "311",
       "elo": 1286,
-      "rank": 20,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -334,7 +334,7 @@
     "zaandaa": {
       "player_id": "1163",
       "elo": 1283,
-      "rank": 21,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -356,7 +356,7 @@
     "jermcurry": {
       "player_id": "1130",
       "elo": 1269,
-      "rank": 22,
+      "rank": 5,
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -378,7 +378,7 @@
     "mrkent (utc+7)": {
       "player_id": "2747",
       "elo": 1258,
-      "rank": 23,
+      "rank": 6,
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -433,7 +433,7 @@
     "keysersoze": {
       "player_id": "2750",
       "elo": 1244,
-      "rank": 24,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -444,7 +444,7 @@
     "aedalus": {
       "player_id": "2729",
       "elo": 1236,
-      "rank": 25,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -466,7 +466,7 @@
     "lumpyprol": {
       "player_id": "224",
       "elo": 1223,
-      "rank": 26,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -477,7 +477,7 @@
     "piechu": {
       "player_id": "2748",
       "elo": 1222,
-      "rank": 27,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -532,7 +532,7 @@
     "abbreviatedman (he/him)": {
       "player_id": "2706",
       "elo": 1210,
-      "rank": 28,
+      "rank": "-",
       "tier": "mouse",
       "bg_color": "#F49E52",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/mouse.webp",
@@ -609,7 +609,7 @@
     "demarogue": {
       "player_id": "2760",
       "elo": 1196,
-      "rank": "-",
+      "rank": 7,
       "tier": "squirrel",
       "bg_color": "#94C160",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/squirrel.webp",
@@ -1456,7 +1456,7 @@
     "schnaga": {
       "player_id": "248",
       "elo": 1083,
-      "rank": "-",
+      "rank": 8,
       "tier": "squirrel",
       "bg_color": "#94C160",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/squirrel.webp",
@@ -1555,7 +1555,7 @@
     "mentalmendel": {
       "player_id": "2519",
       "elo": 1008,
-      "rank": "-",
+      "rank": 9,
       "tier": "squirrel",
       "bg_color": "#94C160",
       "icon_url": "https://tricholome.github.io/hoot-lab/assets/icons/squirrel.webp",
